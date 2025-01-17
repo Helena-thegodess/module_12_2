@@ -5,7 +5,7 @@ import unittest
 class TournamentTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.all_results = []
+        cls.all_results = {}
 
     def setUp(self):
         self.runner1 = runner_and_tournament.Runner("Усэйн", 10)
